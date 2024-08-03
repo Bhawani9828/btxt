@@ -1,0 +1,135 @@
+.sign_in {
+    color: #fff;
+    /* background: #151423 !important; */
+    font-family: Outfit !important;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-frm {
+    padding: 40px;
+    
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    border: 1px solid rgba(0, 69, 132, 0.5);
+    background: linear-gradient(
+      270deg,
+      rgba(0, 69, 132, 0.2) 0%,
+      rgba(5, 5, 5, 0.15) 100%
+    ) !important;
+    box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.16),
+      0px 4px 100px 0px rgba(0, 0, 0, 0.25) inset;
+ 
+}
+
+@media (max-width: 991px) and (min-width: 0px) {
+    .login-frm {
+        padding: 21px;
+    }
+
+    
+}
+
+.login-frm .guideTitle {
+    font-weight: 300;
+    font-size: 28px;
+}
+.bx {
+    font-family: boxicons !important;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    display: inline-block;
+    text-transform: none;
+   
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.login-frm .form-control,
+.login-frm .form-control:focus,
+.tran-frm .form-control,
+.tran-frm .form-control:focus {
+    background: linear-gradient(
+      270deg,
+      rgba(0, 69, 132, 0.2) 0%,
+      rgba(5, 5, 5, 0.15) 100%
+    ) !important;
+    border: none;
+    border-radius: 5px;
+    line-height: 1.8;
+   
+    border: 2px solid transparent;
+    color: #bbbbbb !important;
+    box-shadow: none !important;
+}
+
+.login-frm .borderRnone {
+    border-right: none !important;
+}
+ .login-frm input {
+    border-color: #93c5ee40 !important;
+}
+
+.login-frm .input-group-append {
+  
+    -webkit-backdrop-filter: blur(10px);
+
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    border: 2px solid rgb(41 69 93);
+    background: linear-gradient(
+      270deg,
+      rgba(0, 69, 132, 0.2) 0%,
+      rgba(5, 5, 5, 0.15) 100%
+    ) !important;
+    box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.16),
+      0px 4px 100px 0px rgba(0, 0, 0, 0.25) inset;
+    border-left: none;
+}
+
+.login-frm .input-group-text {
+    border: none;
+    background: linear-gradient(180deg, #004584 0%, #050505 100%);
+    border-radius: 5px;
+    margin: 5px;
+    line-height: 1.8;
+    color: white;
+    padding: 7px 7px;
+    cursor: pointer;
+}
+.login-frm .custbtn-primary,
+.allbtn-frm .custbtn-primary {
+    
+    color: white !important;
+    border-radius: 8px;
+    border: 0.5px solid #1176ff;
+    background: linear-gradient(180deg, #004584 0%, #050505 100%);
+    
+    padding: 9px 25px;
+}
+
+.login-frm .custbtn-primary, .custbtn-primary:hover, .custbtn-primary:active,
+.allbtn-frm .custbtn-primary, .custbtn-primary:hover, .custbtn-primary:active {
+    border-radius: 8px;
+    color: white !important;
+    background: linear-gradient(180deg, #004584 0%, #050505 100%);
+    border: none;
+    padding: 9px 25px;
+}
+
+.login-frm .custbtn-primary, .custbtn-primary:focus-visible,
+.allbtn-frm .custbtn-primary, .custbtn-primary:focus-visible {
+ 
+    padding: 9px 23px;
+    color: var(--primary) !important;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 15px;
+}

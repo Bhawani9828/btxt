@@ -1,0 +1,36 @@
+.search {
+  align-items: center;
+  background-color: #25272c;
+  border-radius: 8px;
+  display: flex;
+  gap: 8px;
+  padding: 8px 12px;
+  position: relative;
+  width: 288px;
+}
+
+.search .div {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  flex: 1;
+  font-family: var(--body-2-font-family);
+  font-size: var(--body-2-font-size);
+  font-style: var(--body-2-font-style);
+  font-weight: var(--body-2-font-weight);
+  letter-spacing: var(--body-2-letter-spacing);
+  line-height: var(--body-2-line-height);
+  padding: 0;
+  position: relative;
+}
+
+.search .remix-icons-line {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.search.hover {
+  border: 1px solid;
+  border-color: var(--state-hover);
+}

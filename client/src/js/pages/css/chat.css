@@ -1,0 +1,96 @@
+
+
+/* new blocx message chat css start */
+
+
+/* new blocx message chat css  */
+
+  
+  /* main {
+    max-width: 600px;
+    margin: auto;
+    height: 100vh;
+    overflow-y: visible;
+   overflow-anchor: none;
+
+    
+  }
+  main::-webkit-scrollbar{
+    display: none;
+
+  }
+  .message ul li{
+    transform: translateZ(0);
+    overflow-anchor: auto;
+  }
+  
+  .input-box {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    padding: 10px 0;
+    width: 100%;
+    max-width: 700px;
+  } */
+  
+  /* .c_input {
+    width: 100%;
+    border: 2px solid #f1f1f1;
+    padding: 10px;
+    background: #f1f1f1;
+    outline: none;
+    border-radius: 10px;
+  } */
+  
+  /* button {
+    padding: 10px;
+    width: 30%;
+    border: none;
+    background: #016fff;
+    border-radius: 10px;
+    margin-left: 5px;
+    color: #fff;
+    cursor: pointer;
+  } */
+  
+  button:hover {
+    opacity: .5;
+  }
+  
+  /* .message {
+    background: #ca6060;
+    margin: 10px 3px;
+    margin-left: 0;
+    border-radius: 10px;
+    padding: 10px;
+ height: 70%;
+    width: max-content;
+    display: flex;
+    align-items: flex-start;
+  } */
+  
+
+  /* .message>img {
+    background: #eb7a7a;
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    border-radius: 9999px;
+    margin-right: 10px;
+  } */
+  
+  /* .message>div span {
+    opacity: .3;
+    display: block;
+    font-size: small;
+  } */
+  
+  /* .message>div {
+    display: flex;
+    flex-direction: column;
+  }  */
+
+  
+  
+  
